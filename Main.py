@@ -14,8 +14,9 @@ from tkinter import messagebox
 # autoit.win_active('Pick Place for 74380B - Excel')
 # autoit.win_move('Pick Place for 74380B - Excel',0,0)
 
-HEADER = ["REF", "PART_NUM", "X", "Y","ROTATION"]  #Adding a note to see if this fixes the push notifications
 
+
+HEADER = ["REF", "PART_NUM", "X", "Y","ROTATION"] #Adding a note to see if this adds editors name
 
 USERNAME = os.getlogin()
 
